@@ -18,6 +18,8 @@
                 return null;
             };
             // 交换左右位置 解构赋值
+            [root.left, root.right] = [mirrorTree(root.right), mirrorTree(root.left)];
+            return root;
             
         }
 
