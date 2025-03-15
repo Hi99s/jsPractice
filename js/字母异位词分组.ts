@@ -1,4 +1,4 @@
-const testArr = ["eat", "tea", "tan", "ate", "nat", "bat"];
+let testArr:string[] = ["eat", "tea", "tan", "ate", "nat", "bat"];
 
 const groupAnagrams = (strs: string[]) => {
     // 创建一个map作为登记簿
@@ -24,3 +24,5 @@ const groupAnagrams = (strs: string[]) => {
 };
 
 console.log(groupAnagrams(testArr));
+
+export {}
