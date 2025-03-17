@@ -1,5 +1,5 @@
 export {};
-// 双指针
+// 双指针 把这个题看做不等于0的应该去前面
 const nums = [0,1,0,3,12];
 const moveZeroes = (nums: number[]): number[] => {
     let slow = 0; // 指向非0数的位置
